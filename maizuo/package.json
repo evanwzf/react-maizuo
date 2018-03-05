@@ -1,0 +1,31 @@
+{
+  "name": "maizuo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd-mobile": "^2.1.6",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.6.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "swiper": "^4.1.6"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "devDependencies": {
+    "react-app-rewired": "^1.4.1"
+  },
+  "proxy": {
+    "/v4": {
+      "target": "https://m.maizuo.com",
+      "changeOrigin": true
+    }
+  }
+}

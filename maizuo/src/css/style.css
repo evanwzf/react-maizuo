@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+.my-drawer {
+  position: relative;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar {
+  background-color: #282828;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 50px;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+  width: 265px;
+  padding: 0;
+}
+.am-list-item{
+    text-indent: 15px;
+    padding-left: 0;
+}
+#qz .am-list-item .am-list-line .am-list-content{
+    color: #9a9a9a;
+    font-size: 14px;
+}
+
+
+.list-unstyled{
+    padding-left:0;
+}
+.movie{
+    margin: 0 17px 17px 17px;
+    background-color: #f9f9f9;
+    box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    cursor:pointer;
+}
+.movie .movie-item-img{
+    overflow: hidden;
+    position: relative;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.film-name{
+    font-size: 12px;
+    line-height: 15px;
+    user-select: text;
+}
+.img-responsive img{
+    width: 100%;
+}
+.col-xs-10{
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.col-xs-2{
+    height: 50px;
+}
+.count{
+    font-size: 8px;
+    color: #8a8a8a;
+    line-height: 15px;
+}
+.score{
+    color: #f78360;
+    display: inline-block;
+    line-height: 50px;
+    float: right;
+    margin-right: 15px;
+    font-size: 18px;
+}
+.more-button{
+    width:160px;
+    height:30px;
+    border:1px solid #aaa;
+    border-radius:15px;
+    margin:10px 10px 10px 110px;
+    text-align:center;
+    line-height:30px;
+    font-size:12px;
+    color:#616161;
+}
+.dividing-line{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #a8a8a8;
+}
+.upcoming{
+    width: 65px;
+    height: 20px;
+    margin: 0 auto;
+    margin-bottom: -10px;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    color: #eee;
+    background-color: #a7a7a7;
+}
+.upcoming-desc .left{
+    height: 25px;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.col-xs-7{
+    width: 58.33333333%;
+}
